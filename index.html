@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Event Alert System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔔 Event Alert System</h1>
+
+    <div class="section">
+      <h2>📧 Subscribe for Alerts</h2>
+      <input type="email" id="emailInput" placeholder="Enter your email" />
+      <button onclick="subscribe()">Subscribe</button>
+    </div>
+
+    <div class="section">
+      <h2>📅 Create Event</h2>
+      <input type="text" id="eventTitle" placeholder="Event title" />
+      <textarea id="eventDescription" placeholder="Event description"></textarea>
+      <button onclick="submitEvent()">Create Event</button>
+
+    </div>
+
+    <p id="responseMessage"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
